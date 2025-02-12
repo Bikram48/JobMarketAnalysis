@@ -56,10 +56,6 @@ After web scraping, the raw data was processed using **Pandas** to clean and pre
 - **Creating State-Based Job Analysis**:
   - A new column, **state_abbr**, was created by extracting the **state abbreviation** from the **location** column to allow for state-based job distribution analysis.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 ## Data Analysis
 
 After importing the cleaned data into **SQLiteStudio**, various SQL queries were performed to extract valuable insights. The analysis focused on understanding the distribution of **job postings**, **applicants**, **employment types**, **companies**, **states**, and **salaries** within the **data-related roles**. Key insights extracted from the data include:
