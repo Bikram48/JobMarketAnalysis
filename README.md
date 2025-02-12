@@ -52,9 +52,6 @@ After web scraping, the raw data was processed using **Pandas** to clean and pre
 - **Creating State-Based Job Analysis**:
   - A new column, **state_abbr**, was created by extracting the **state abbreviation** from the **location** column to allow for state-based job distribution analysis.
 
-Here's the updated **Analysis** section to include the points you've mentioned:
-
----
 
 ## Data Analysis
 
