@@ -4,6 +4,10 @@
 
 **JobAnalysis** is a data-driven project that analyzes job postings in the **data field**, including roles such as **Data Scientist, Data Analyst, and Data Engineer**. The project involves **web scraping, data processing with Pandas, SQL-based analysis, and Tableau visualizations** to uncover insights about job trends, salaries, employment types, and company hiring patterns.
 
+## Project Pipeline
+
+![Project Pipeline](images/project_pipeline.png)
+
 ## Data Collection
 
 The data was collected using **BeautifulSoup**, a Python library for web scraping. The extracted job-related information includes:
@@ -52,10 +56,6 @@ After web scraping, the raw data was processed using **Pandas** to clean and pre
 - **Creating State-Based Job Analysis**:
   - A new column, **state_abbr**, was created by extracting the **state abbreviation** from the **location** column to allow for state-based job distribution analysis.
 
-Here's the updated **Analysis** section to include the points you've mentioned:
-
----
-
 ## Data Analysis
 
 After importing the cleaned data into **SQLiteStudio**, various SQL queries were performed to extract valuable insights. The analysis focused on understanding the distribution of **job postings**, **applicants**, **employment types**, **companies**, **states**, and **salaries** within the **data-related roles**. Key insights extracted from the data include:
@@ -82,10 +82,6 @@ After importing the cleaned data into **SQLiteStudio**, various SQL queries were
    Calculating the average salary for each **seniority level** (Entry-level, Mid-level, Senior) within the three data-related roles, providing insights into compensation trends.
 
 These analyses were performed using structured **SQL queries**, and the results were visualized and explored further using **Tableau** for better insights.
-
-Here's the updated section for the **Tableau Visualization** with the insights and a link to your dashboard:
-
----
 
 ## Data Visualization with Tableau
 
