@@ -80,10 +80,6 @@ After importing the cleaned data into **SQLiteStudio**, various SQL queries were
 
 These analyses were performed using structured **SQL queries**, and the results were visualized and explored further using **Tableau** for better insights.
 
-Here's the updated section for the **Tableau Visualization** with the insights and a link to your dashboard:
-
----
-
 ## Data Visualization with Tableau
 
 After performing the data analysis, **Tableau** was used to create interactive visualizations for deeper insights. The key insights derived from the visualizations include:
